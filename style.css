@@ -1,0 +1,226 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,
+.nav-item a:hover {
+    color: #E65F78;
+}
+
+.nav-link {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(./imges/main.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 5;
+}
+/* buttons */
+.look-up {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 3;
+    transform: translate(-5%, -5%);
+    -webkit-transform: translate(-5%, -5%);
+    -moz-transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+    -o-transform: translate(-5%, -5%);
+    border: 1px solid #E65F78;
+    background-color: #E65F78;
+    border-radius:2px;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    -ms-border-radius:2px;
+    -o-border-radius:2px;
+    cursor: pointer;
+}
+
+.settings {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    z-index: 11;
+    border: 1px solid black;
+    border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -ms-border-radius: 0 3px 3px 0;
+    -o-border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+/* home */
+.home-title {
+    font-weight: 600;
+    font-size: 55px;
+}
+
+.home-par {
+    line-height: 1.8;
+    font-weight: 500;
+    width: 50%;
+}
+
+.home-button {
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    font-weight: 600;
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 800px;
+    -webkit-border-radius: 800px;
+    -moz-border-radius: 800px;
+    -ms-border-radius: 800px;
+    -o-border-radius: 800px;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    padding: 12px 40px;
+}
+
+.home-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.home-click {
+    bottom: 5%;
+    margin: 0;
+    left:50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    border: 2px solid white;
+    height: 50px;
+    width: 30px;
+    border-radius: 800px;
+    -webkit-border-radius: 800px;
+    -moz-border-radius: 800px;
+    -ms-border-radius: 800px;
+    -o-border-radius: 800px;
+}
+/* about */
+.about-icon .icon-circ {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 4px;
+    margin: 0 15px 0 0;
+    transition: all 500ms ease;
+    border: 2px solid rgb(198, 191, 191);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.pink {
+    color: #E65F78;
+}
+/* services */
+.serv .col-md-4 span {
+    color: #E65F78;
+}
+
+.clint-button {
+    cursor: pointer;
+    border: 2px solid #E65F78;
+    background-color: #E65F78;
+    padding: 12.8px 41.6px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: 1s ease;
+}
+
+.title {
+    max-width: 31.25rem;
+    margin: auto;
+}
+
+.carousel-item i {
+    color: #E65F78;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #E65F78;
+}
+
+.hire {
+    padding-block: 100px;
+}
+
+.nav-link {
+    cursor: pointer;
+    padding: 6px 16px;
+    background-color: transparent;
+    font-size: .875rem;
+    font-weight: 700;
+    border: unset;
+    color: black
+}
+
+.img-cont {
+    position: relative;
+    cursor: pointer;
+    border: unset;
+    overflow: hidden;
+}
+
+.overlay {
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 800ms linear;
+}
+
+.img-cont:hover .overlay{
+    top: 0;
+    opacity: 1;
+}
+
+.img-cont:hover img {
+    filter: brightness(.3);
+    transition-delay: 0.15s
+}
+
+.card-body span {
+    color: #E65F78;
+}
+
+.form__button {
+    right: 0%;
+    background-color: #E65F78;
+}
+
+.contact-icon i {
+    color: #E65F78;
+}
+.footer {
+    background-color:black ;
+}
+
+
