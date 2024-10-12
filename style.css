@@ -45,10 +45,10 @@ header {
 }
 
 .settings {
-    position: fixed;
-    top: 15%;
-    left: 0;
-    z-index: 11;
+    position: absolute;
+    top: 0;
+    right: -16%;
+    /* z-index: 11; */
     border: 1px solid black;
     border-radius: 0 3px 3px 0;
     -webkit-border-radius: 0 3px 3px 0;
@@ -56,6 +56,28 @@ header {
     -ms-border-radius: 0 3px 3px 0;
     -o-border-radius: 0 3px 3px 0;
     cursor: pointer;
+}
+/* sidebar */
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 30%;
+    display: flex;
+    align-items: flex-start;
+    z-index: 999;
+}
+
+.colorContainer span{
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    display: inline-block;
+}
+
+.colorContainer img{
+    width: 150px;
+    display: block;
+    margin-top: 10px;
 }
 /* home */
 .home-title {
